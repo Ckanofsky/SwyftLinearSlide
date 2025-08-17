@@ -50,14 +50,12 @@ public class DeepTeleopBlue extends LinearOpMode{
 
 
 //Linear Slide Code
-
             if (linearSlideActive) {
                 robot.linearSlides.manualLinearSlide(gamepad1.dpad_up, gamepad1.dpad_down); //Manual up and down
             }
 
 
 //Intake Code
-
             if (intakeActive){
                 robot.intake.intakeManual(gamepad1.right_trigger, gamepad1.left_trigger); //Manual intake and outake
             }
